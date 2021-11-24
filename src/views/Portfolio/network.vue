@@ -1,7 +1,7 @@
 <template>
   <v-container grid-list-xl>
     <h2 class="pl-4">
-      <span>Video</span>
+      <span>Network</span>
       <span class="green--text">Portfolio</span>
     </h2>
     <v-layout row justify-center align-center wrap class="mt-4 pt-2">
@@ -75,11 +75,35 @@ export default {
       videos: [
         {
           dialog: false,
-          title: 'Vila Design Promo video',
+          title: 'Squid Server',
           href: 'https://drive.google.com/file/d/1Y_CAa5rH8giEaAjH1Cg0z1srsysoT5jp/preview',
           type: 'text/html',
           
-          poster: 'https://img.youtube.com/vi/XP8j7NA_wzc/maxresdefault.jpg'
+          poster: 'https://i.imgur.com/LV7nJSw.jpg'
+        },
+        {
+          dialog: false,
+          title: 'Owncloud',
+          href: 'https://docs.google.com/document/d/e/2PACX-1vScDTbK2Q7DOH4RIpIC0mhtYmzK3L847xdvr_c6XYrblPhO6u3yA0ADbldW7yAxSFriHT6SB9PssLJy/pub?embedded=true',
+          type: 'text/html',
+          
+          poster: 'https://i.imgur.com/AsSjHmW.png'
+        },
+        {
+          dialog: false,
+          title: 'Mikrotik Dasar',
+          href: 'https://docs.google.com/document/d/e/2PACX-1vScDTbK2Q7DOH4RIpIC0mhtYmzK3L847xdvr_c6XYrblPhO6u3yA0ADbldW7yAxSFriHT6SB9PssLJy/pub?embedded=true',
+          type: 'text/html',
+          
+          poster: 'https://i.imgur.com/MiTA4zw.png'
+        },
+        {
+          dialog: false,
+          title: 'Mikrotik Hotspot',
+          href: 'https://docs.google.com/document/d/e/2PACX-1vScDTbK2Q7DOH4RIpIC0mhtYmzK3L847xdvr_c6XYrblPhO6u3yA0ADbldW7yAxSFriHT6SB9PssLJy/pub?embedded=true',
+          type: 'text/html',
+          
+          poster: 'https://i.imgur.com/y0F2cny.jpg'
         },
        
       ]

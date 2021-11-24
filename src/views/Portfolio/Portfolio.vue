@@ -51,27 +51,35 @@ export default {
   data () {
     return {
       portfolios: [
-        {
-          src: 'https://i.imgur.com/GvTt5GG.png',
-          title: 'Web'
-        },
-        {
-          src: 'Android.jpg',
-          title: 'Android'
-        },
 
         {
-          src: 'https://i.imgur.com/wXLtLKy.png',
-          title: 'Video'
+          src: 'cameras.png',
+          title: 'Photo'
         },
         {
           src: 'https://i.imgur.com/g74mGuU.png',
           title: 'Network'
         },
         {
-          src: 'cameras.png',
-          title: 'Photo'
-        }
+          src: 'https://i.imgur.com/wXLtLKy.png',
+          title: 'Video'
+        },
+        {
+          src: 'https://i.imgur.com/GvTt5GG.png',
+          title: 'Web'
+        },
+        {
+          src: 'aplikasi.jpg',
+          title: 'application'
+        },
+        {
+          src: 'Android.jpg',
+          title: 'Android'
+        },
+
+        
+        
+        
       ]
     }
   }

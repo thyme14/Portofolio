@@ -4,7 +4,18 @@
   <v-layout column justify-center align-center class="mt-4 pt-2">
 
     <br>
-   <VueCompareImage leftImage="adlin.jpeg" rightImage="miftah.jpeg"
+   <VueCompareImage leftImage="adlin.jpg" 
+ height="600px"
+    width="1880px"
+    rightImage="miftah.jpeg"
+    
+    style="{ minWidth: '500px' }"
+    :sliderLineWidth="sliderLine"
+      :handleSize="10"
+      hover
+      
+      
+      :sliderPositionPercentage="sliderPosition"
    class="hidden-md-and-down"/>;
     <vue-typer class="headline" :repeat="0" text="AGM"></vue-typer>
     <vue-typer

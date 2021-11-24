@@ -48,6 +48,30 @@ export default new Router({
         import(/* webpackChunkName: "about" */ './views/Portfolio/Video.vue')
   },
   {
+    path: '/portfolio/android',
+    name: 'android',
+    component: () =>
+        import(/* webpackChunkName: "about" */ './views/Portfolio/android.vue')
+  },
+  {
+    path: '/portfolio/application',
+    name: 'application',
+    component: () =>
+        import(/* webpackChunkName: "about" */ './views/Portfolio/application.vue')
+  },
+  {
+    path: '/portfolio/photo',
+    name: 'android',
+    component: () =>
+        import(/* webpackChunkName: "about" */ './views/Portfolio/photo.vue')
+  },
+  {
+    path: '/portfolio/network',
+    name: 'android',
+    component: () =>
+        import(/* webpackChunkName: "about" */ './views/Portfolio/network.vue')
+  },
+  {
     path: '/portfolio/graphic',
     name: 'graphicPortfolio',
     component: () =>
