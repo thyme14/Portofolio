@@ -4,10 +4,10 @@
   <v-layout column justify-center align-center class="mt-4 pt-2">
 
     <br>
-   <VueCompareImage leftImage="adlin.jpg" 
+   <VueCompareImage leftImage="adlinbagasslide.jpg" 
  height="600px"
     width="1880px"
-    rightImage="miftah.jpeg"
+    rightImage="miftahslide.jpg"
     
     style="{ minWidth: '500px' }"
     :sliderLineWidth="sliderLine"
